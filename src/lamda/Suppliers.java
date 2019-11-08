@@ -15,6 +15,9 @@ public class Suppliers {
         __testSupplier3();
     }
 
+    /**
+     * 단순히 텍스트 출력
+     */
     private static void __testSupplier1() {
         Supplier<String> s = () -> "Hello World";
         System.out.println(s.get());

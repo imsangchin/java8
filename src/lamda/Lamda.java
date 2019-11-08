@@ -17,6 +17,7 @@ public class Lamda {
      * Int로 변환 시키는 함수
      */
     private static void __testLamda1() {
+        //기존 방식
         ConvertIntFunction<String> func = new ConvertIntFunction<String>() {
             @Override
             public int convert(String value) {
@@ -26,11 +27,13 @@ public class Lamda {
 
         System.out.println(func.convert("100"));
 
+        //람다를 사용한 방식
         ConvertIntFunction<String> func2 = (s) -> {
-            return Integer.parseInt(s);
+            return Integer.parseInt(s); //return 키워드는 생략가능, (람다에서 마지막 문장은 리턴값으로 간주)
         };
         System.out.println(func2.convert("100"));
 
+        //람다를 사용한 방식 (단일 표현식으로 구현)
         ConvertIntFunction<String> func3 = (s) -> Integer.parseInt(s);
         System.out.println(func3.convert("100"));
     }
@@ -47,11 +50,13 @@ public class Lamda {
         };
         System.out.println(func.convertToIntValue("1", "2"));
 
+        //람다를 사용한 방식
         ConvertIntBiFunction<String, String> func2 = (s1, s2) -> {
             return Integer.parseInt(s1) + Integer.parseInt(s2);
         };
         System.out.println(func2.convertToIntValue("1", "2"));
 
+        //람다를 사용한 방식 (단일 표현식으로 구현)
         ConvertIntBiFunction<String, String> func3 = (s1, s2) -> Integer.parseInt(s1) + Integer.parseInt(s2);
         System.out.println(func3.convertToIntValue("1", "2"));
     }
