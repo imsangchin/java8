@@ -24,7 +24,7 @@ public class CreateStream1 {
 
 
     public static void main(String[] args) {
-        __testStream13();
+        __testStreamOrder4();
     }
 
     /**
@@ -180,5 +180,103 @@ public class CreateStream1 {
     private static void __testStream13() {
         Stream<String> stream = Pattern.compile(",").splitAsStream("A, B, C");
         stream.forEach(text -> System.out.println(text));
+    }
+
+    private static void __testStreamOrder1() {
+        Stream.of("a", "b", "d", "d", "e")
+                .filter(s -> {
+                    System.out.println("[filter] " + s);
+                    return true;
+                })
+                .forEach(s -> System.out.println("[forEach] " + s));
+
+    }
+
+    static int gCount = 0;
+    /**
+     * 1) 'a', 'b', 'c'만 선택
+     * 2) 대문자로 변환후
+     * 3) 오름차순 정렬
+     */
+    private static void __testStreamOrder2() {
+
+        List<String> charList = Arrays.asList("ddd", "cc", "bbb", "eee", "aaa");
+        List<String> filteredList = new ArrayList<>();
+        List<String> upperCaseList = new ArrayList<>();
+
+        gCount = 0;
+        //1) 필터링
+        for( String alphabet : charList) {
+            gCount++;
+            if( alphabet.startsWith("a") || alphabet.startsWith("b") || alphabet.startsWith("c")) {
+                filteredList.add(alphabet);
+            }
+        }
+        //2) 대문자
+        for( String str : filteredList) {
+            gCount++;
+            upperCaseList.add(str.toUpperCase());
+        }
+        //정렬
+        upperCaseList.sort((s1, s2) ->
+                {
+                    gCount++;
+                    return s1.compareTo(s2);
+                }
+        );
+
+        //실행 횟수
+        System.out.println("Count =" + gCount);
+    }
+
+    private static void __testStreamOrder3() {
+        gCount = 0;
+        Stream.of("ddd", "cc", "bbb", "eee", "aaa")
+                //정렬
+                .sorted( (s1, s2) ->
+                {
+                    gCount++;
+                    return s1.compareTo(s2);
+                })
+                //필터링
+                .filter(s -> {
+                            gCount++;
+                            return (s.startsWith("a") || s.startsWith("b") || s.startsWith("c"));
+                        }
+                )
+                //대문자
+                .map( s-> {
+                    gCount++;
+                    return s.toUpperCase();
+                })
+
+                .forEach(System.out::println);
+        //실행 횟수
+        System.out.println("Count =" + gCount);
+    }
+
+    private static void __testStreamOrder4() {
+        gCount = 0;
+        Stream.of("ddd", "cc", "bbb", "eee", "aaa")
+                //필터링
+                .filter(s -> {
+                            gCount++;
+                            return (s.startsWith("a") || s.startsWith("b") || s.startsWith("c"));
+                        }
+                )
+                //대문자
+                .map( s-> {
+                    gCount++;
+                    return s.toUpperCase();
+                })
+                //정렬
+                .sorted( (s1, s2) ->
+                {
+                    gCount++;
+                    return s1.compareTo(s2);
+                })
+                .forEach(System.out::println);
+        //실행 횟수
+        System.out.println("Count =" + gCount);
     }
 }

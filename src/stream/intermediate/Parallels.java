@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
  */
 public class Parallels {
     public static void main(String[] args) {
-        __testParallel4();
+        __testParallel7();
     }
 
     /**
@@ -40,7 +40,7 @@ public class Parallels {
      * 이를 최종적으로 합쳐서(Join) 결과를 만들어내는 방식이다.
      *
      */
-    private static void __testParallel2() {
+    private static void __testParallel() {
 
         ForkJoinPool pool = new ForkJoinPool();
 
@@ -70,6 +70,69 @@ public class Parallels {
     private static void __testParallel4() {
         Arrays.asList("a", "b", "c").parallelStream().forEach(index ->
                 System.out.println( "index= " + index + ", 쓰레드 " + Thread.currentThread().getName()));
+    }
+
+
+    private static void __testParallel5() {
+        int reducedParallel = Arrays.asList(1, 2, 3).stream()
+                .reduce(10, (a, b) -> {
+                    System.out.println( String.format("%d + %d ", a, b) + ", 쓰레드 " + Thread.currentThread().getName() );
+                    return a + b;
+                });
+        System.out.println("reducedParallel=" + reducedParallel);
+    }
+
+    private static void __testParallel6() {
+        int reducedParallel = Arrays.asList(1, 2, 3).stream()
+                .reduce(10, (a, b) -> {
+                    System.out.println( String.format("%d + %d ", a, b) + ", 쓰레드 " + Thread.currentThread().getName() );
+                    return a + b;
+                });
+        System.out.println("reducedParallel=" + reducedParallel);
+    }
+
+    /**
+     * (병렬방식)
+     * 1에서 100,000 까지 소수를 찾아서 모두 더하시요.
+     */
+    private static void __testParallel7() {
+        long startTime = System.currentTimeMillis();
+
+        int total = IntStream.rangeClosed(1, 100000).parallel().filter( n -> {
+            boolean isPrime = true;
+            for (int i = 2; i < n; i++) {
+                if( n % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            return n > 1 && isPrime;
+        }).reduce( (a, b) -> a+b).getAsInt();
+
+        System.out.println("consume time=" + (System.currentTimeMillis() - startTime) );
+        System.out.println("total=" + total);
+    }
+
+    /**
+     * 메인 쓰레드 실행 방식
+     * 1에서 100,000 까지 소수를 찾아서 모두 더하시요.
+     */
+    private static void __testParallel8() {
+        long startTime = System.currentTimeMillis();
+
+        int total = IntStream.rangeClosed(1, 100000).filter( n -> {
+            boolean isPrime = true;
+            for (int i = 2; i < n; i++) {
+                if( n % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            return n > 1 && isPrime;
+        }).reduce( (a, b) -> a+b).getAsInt();
+
+        System.out.println("consume time=" + (System.currentTimeMillis() - startTime) );
+        System.out.println("total=" + total);
     }
 
 }

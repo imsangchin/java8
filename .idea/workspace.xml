@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lamda/CreateFunInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/Optionals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wmp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wmp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lamda/Lamda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/Lamda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lamda/Suppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/Suppliers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lamda/CreateFunInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/CreateFunInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/CreateStream1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/CreateStream1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Collects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Collects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Parallels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Parallels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Reduces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Reduces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Sorts.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="263" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -52,25 +61,67 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wmp.Main" />
       <module name="java8" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lamda.cotlin.FirstClassFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Maps" />
       <module name="java8" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="lamda.cotlin.FirstClassFunctionsKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.Optionals" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parallels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Parallels" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Reduces" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,7 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Kotlin.lamda.cotlin.FirstClassFunctionsKt" />
+        <item itemvalue="Application.Optionals" />
+        <item itemvalue="Application.Maps" />
+        <item itemvalue="Application.Parallels" />
+        <item itemvalue="Application.Reduces" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +154,11 @@
       <workItem from="1570428244974" duration="392000" />
       <workItem from="1573112033663" duration="6128000" />
       <workItem from="1573193863338" duration="3311000" />
+      <workItem from="1573438577154" duration="13903000" />
+      <workItem from="1573548310488" duration="4096000" />
+      <workItem from="1573553152243" duration="22000" />
+      <workItem from="1573608577694" duration="10008000" />
+      <workItem from="1573692646718" duration="396000" />
     </task>
     <servers />
   </component>
@@ -118,5 +177,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java8$Optionals.ic" NAME="Optionals Coverage Results" MODIFIED="1573552123604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>optional.*</FILTER>
+    </SUITE>
   </component>
 </project>

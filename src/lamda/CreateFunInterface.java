@@ -1,6 +1,8 @@
 package lamda;
 
-
+/**
+ * 간단하게 Functional Interface 구현예제
+ */
 public class CreateFunInterface {
     private void testCalculate() {
         double value1= WmpCalculator.add(2, 3,

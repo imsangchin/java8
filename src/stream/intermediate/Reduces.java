@@ -14,11 +14,11 @@ import java.util.stream.Stream;
 public class Reduces {
 
     public static void main(String[] args) {
-        __testReduce5();
+        __testReduce1();
     }
 
     /**
-     * accumulator function
+     * 1에서 5까지 더한합 구하
      */
     private static void __testReduce1() {
         int sum = IntStream.of(1, 2, 3, 4, 5).reduce(0, (n1, n2) -> n1 + n2);

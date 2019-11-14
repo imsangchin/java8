@@ -5,13 +5,14 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * map, flatmap 사용예
  */
 public class Maps {
     public static void main(String[] args) {
-        __testMap4();
+        _testFlatMap();
     }
 
 
@@ -97,6 +98,14 @@ public class Maps {
 
         // Integer sum = integers.reduce(0, (a, b) -> a+b);
         System.out.println("합계:" + total);
+    }
+
+    private static void _testFlatMap() {
+        String[] strArr1 = {"A", "B", "C"};
+        String[] strArr2 = {"D", "E", "F"};
+
+        String[] mergedArr = Stream.of(strArr1, strArr2).flatMap(s -> Stream.of(s)).toArray(String[]::new);
+        System.out.println(Arrays.toString(mergedArr));
     }
 }
 
