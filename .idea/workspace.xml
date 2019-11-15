@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/Optionals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wmp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wmp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lamda/CreateFunInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/CreateFunInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/CreateStream1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/CreateStream1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Collects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Collects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Maps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Parallels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Parallels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Reduces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Reduces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/intermediate/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/intermediate/Sorts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/Optionals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ExamMethodRef">
+    <configuration name="ExamMethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lamda.ExamMethodRef" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lamda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wmp.Main" />
       <module name="java8" />
@@ -113,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Reduces" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExamMethodRef" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Optionals" />
         <item itemvalue="Application.Maps" />
         <item itemvalue="Application.Parallels" />
-        <item itemvalue="Application.Reduces" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +150,9 @@
       <workItem from="1573548310488" duration="4096000" />
       <workItem from="1573553152243" duration="22000" />
       <workItem from="1573608577694" duration="10008000" />
-      <workItem from="1573692646718" duration="396000" />
+      <workItem from="1573692646718" duration="1082000" />
+      <workItem from="1573780605305" duration="729000" />
+      <workItem from="1573783442763" duration="9076000" />
     </task>
     <servers />
   </component>

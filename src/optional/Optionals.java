@@ -5,6 +5,10 @@ import java.util.Optional;
 /**
  * https://www.mkyong.com/java8/java-8-optional-in-depth/
  * https://advenoh.tistory.com/15
+ *
+ * https://kkwonsy.tistory.com/33
+ * https://www.daleseo.com/java8-optional-effective/
+ * https://www.daleseo.com/java8-optional-after/
  */
 public class Optionals {
 
@@ -106,5 +110,13 @@ public class Optionals {
     private static void __testOptional8() throws IllegalAccessException {
         Optional<String> fruitOpt = Optional.ofNullable(null);
         fruitOpt.orElseThrow(IllegalAccessException::new);
+    }
+
+    /**
+     * 문자열 길이를 구하기
+     */
+    private static void __testOptional9() {
+        Optional<String> textOpt = Optional.ofNullable(null);
+        textOpt.map(String::length).orElse(0);
     }
 }
