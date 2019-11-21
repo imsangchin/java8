@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/definterface/DefaultInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/definterface/MultipleInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlin/UseKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/OptionalChaining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wmp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wmp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda/ExamMethodRef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/Optionals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +26,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExamMethodRef">
+  <component name="RunManager" selected="Application.MultipleInterfaces">
     <configuration name="ExamMethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lamda.ExamMethodRef" />
       <module name="java8" />
@@ -79,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Maps" />
+    <configuration name="MultipleInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="definterface.MultipleInterfaces" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.intermediate.*" />
+          <option name="PATTERN" value="definterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalChaining" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parallels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.intermediate.Parallels" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleInterfaces" />
+        <item itemvalue="Application.OptionalChaining" />
+        <item itemvalue="Application.Optionals" />
         <item itemvalue="Application.ExamMethodRef" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Optionals" />
-        <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.Parallels" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +155,10 @@
       <workItem from="1573608577694" duration="10008000" />
       <workItem from="1573692646718" duration="1082000" />
       <workItem from="1573780605305" duration="729000" />
-      <workItem from="1573783442763" duration="9076000" />
+      <workItem from="1573783442763" duration="9570000" />
+      <workItem from="1574044071101" duration="6609000" />
+      <workItem from="1574066779820" duration="1085000" />
+      <workItem from="1574213203611" duration="10498000" />
     </task>
     <servers />
   </component>

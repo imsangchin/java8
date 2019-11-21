@@ -13,7 +13,11 @@ import java.util.Optional;
 public class Optionals {
 
     public static void main(String[] args) {
-        __testOptional7();
+        try {
+            __testOptional8();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -107,6 +111,10 @@ public class Optionals {
         System.out.println(fruit2);
     }
 
+    /**
+     * orElseThrow(에외) 형태로, 값이 널인 경우, 예외를 발생시킨다.
+     * @throws IllegalAccessException
+     */
     private static void __testOptional8() throws IllegalAccessException {
         Optional<String> fruitOpt = Optional.ofNullable(null);
         fruitOpt.orElseThrow(IllegalAccessException::new);
