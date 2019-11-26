@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mykotlin/JavaPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/ByLazy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/Casting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/HighOrder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/Inline.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/JavaCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/StandardProDelegate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/UseDelegator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/UseExtension.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kotlin/UseKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mykotlin/JavaPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/JavaPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -54,67 +62,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.mykotlin.UseKotlinKt">
-    <configuration name="JavaPart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mykotlin.JavaPart" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mykotlin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipleInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="definterface.MultipleInterfaces" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="definterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalChaining" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.Optionals" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mykotlin.UseKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.mykotlin.ByLazyKt">
+    <configuration name="mykotlin.ByLazyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mykotlin.UseKotlinKt" />
+      <option name="MAIN_CLASS_NAME" value="mykotlin.ByLazyKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mykotlin.HighOrderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mykotlin.HighOrderKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mykotlin.InlineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mykotlin.InlineKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mykotlin.UseDelegatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mykotlin.UseDelegatorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mykotlin.UseExtensionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mykotlin.UseExtensionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.mykotlin.UseKotlinKt" />
-        <item itemvalue="Application.JavaPart" />
-        <item itemvalue="Application.MultipleInterfaces" />
-        <item itemvalue="Application.OptionalChaining" />
-        <item itemvalue="Application.Optionals" />
+        <item itemvalue="Kotlin.mykotlin.ByLazyKt" />
+        <item itemvalue="Kotlin.mykotlin.UseDelegatorKt" />
+        <item itemvalue="Kotlin.mykotlin.InlineKt" />
+        <item itemvalue="Kotlin.mykotlin.HighOrderKt" />
+        <item itemvalue="Kotlin.mykotlin.UseExtensionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +167,10 @@
       <workItem from="1574066779820" duration="1085000" />
       <workItem from="1574213203611" duration="10498000" />
       <workItem from="1574299349324" duration="4671000" />
+      <workItem from="1574393893447" duration="8501000" />
+      <workItem from="1574409749732" duration="2512000" />
+      <workItem from="1574645944525" duration="10744000" />
+      <workItem from="1574734937022" duration="359000" />
     </task>
     <servers />
   </component>
