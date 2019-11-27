@@ -25,6 +25,12 @@ import kotlinx.coroutines.*
  *
  * getter /setter
  * https://hongku.tistory.com/347
+ *
+ * 커스터 get / set
+ * https://medium.com/@agrawalsuneet/property-getter-and-setter-kotlin-d89a3e70e62
+ *
+ * 옵셔널 체이닝
+ * https://medium.com/@agrawalsuneet/safe-calls-vs-null-checks-in-kotlin-f7c56623ab30
  */
 
 fun main(args: Array<String>) {
