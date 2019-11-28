@@ -31,6 +31,9 @@ import kotlinx.coroutines.*
  *
  * 옵셔널 체이닝
  * https://medium.com/@agrawalsuneet/safe-calls-vs-null-checks-in-kotlin-f7c56623ab30
+ *
+ * let 함수
+ * https://qiita.com/ngsw_taro/items/d29e3080d9fc8a38691e
  */
 
 fun main(args: Array<String>) {

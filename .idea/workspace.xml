@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mykotlin/Getter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mykotlin/GoodsDeals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mykotlin/Optionals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mykotlin/Optionals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/Optionals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,6 +162,7 @@
       <workItem from="1574645944525" duration="10744000" />
       <workItem from="1574734937022" duration="5512000" />
       <workItem from="1574749855886" duration="6070000" />
+      <workItem from="1574925855607" duration="3291000" />
     </task>
     <servers />
   </component>

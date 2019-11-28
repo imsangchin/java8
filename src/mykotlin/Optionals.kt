@@ -3,7 +3,9 @@ package mykotlin
 
 fun main() {
 
-    testCart()
+    // testCart()
+    // testLet()
+    sampleLet()
 }
 
 fun testNullables() {
@@ -31,13 +33,11 @@ fun nullCheck() {
 
 
 fun testCart() {
-
     var str: String?  = null
     println(str?.length)
 
     str = "Hello"
     println(str?.length)
-
 
     var shopItem: ShopItem? = null
     println(shopItem?.seller?.tel) //판매자의 전화 번호 출력
@@ -47,9 +47,23 @@ fun testCart() {
 
     shopItem.seller = Seller("id_00000", "010-xxx-xxxx")
     println(shopItem?.seller?.tel) //판매자의 전화 번호 출력
+}
 
+fun testLet() {
+    val list: List<String?> = listOf("A", null)
+    for (item in list) {
+        item?.let { println(it) } // 널(null)이 아닌 값만 출력
+    }
+}
 
+fun sampleLet() {
+    var name: String? = null
+    var upperCase = name?.let { it.toUpperCase() }
+    println(upperCase)
 
+    name = "김훈"
+    upperCase = name?.let { it.toUpperCase() }
+    println(upperCase)
 }
 
 /**
