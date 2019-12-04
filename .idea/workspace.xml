@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39161d31-b7b6-48f9-b89e-59edeab3b1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mykotlin/UseSmartCast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/RamdaStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/META-INF/java8.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mykotlin/Optionals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/Optionals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mykotlin/UseKotlin.kt" afterDir="false" />
     </list>
@@ -22,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,10 +38,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2120766" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +56,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.mykotlin.OptionalsKt">
+  <component name="RunManager" selected="Application.RamdaStudy">
+    <configuration name="JavaPart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mykotlin.JavaPart" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mykotlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RamdaStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.RamdaStudy" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mykotlin.ByLazyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <option name="VM_PARAMETERS" />
@@ -79,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mykotlin.InlineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mykotlin.InlineKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mykotlin.OptionalsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <option name="VM_PARAMETERS" />
@@ -105,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mykotlin.UseDelegatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mykotlin.UseDelegatorKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RamdaStudy" />
+        <item itemvalue="Application.JavaPart" />
         <item itemvalue="Kotlin.mykotlin.OptionalsKt" />
         <item itemvalue="Kotlin.mykotlin.GetterKt" />
         <item itemvalue="Kotlin.mykotlin.ByLazyKt" />
-        <item itemvalue="Kotlin.mykotlin.UseDelegatorKt" />
-        <item itemvalue="Kotlin.mykotlin.InlineKt" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +167,10 @@
       <workItem from="1574734937022" duration="5512000" />
       <workItem from="1574749855886" duration="6070000" />
       <workItem from="1574925855607" duration="3291000" />
+      <workItem from="1574993207380" duration="13563000" />
+      <workItem from="1575423273416" duration="1784000" />
+      <workItem from="1575437846533" duration="2901000" />
+      <workItem from="1575447254442" duration="15000" />
     </task>
     <servers />
   </component>

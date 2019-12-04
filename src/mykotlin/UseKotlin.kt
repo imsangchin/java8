@@ -34,6 +34,9 @@ import kotlinx.coroutines.*
  *
  * let 함수
  * https://qiita.com/ngsw_taro/items/d29e3080d9fc8a38691e
+ *
+ * Smart Cast
+ * https://kotlinlang.org/docs/reference/typecasts.html?_ga=2.189228459.1828526368.1575005551-1360689027.1517380889#smart-casts
  */
 
 fun main(args: Array<String>) {

@@ -5,7 +5,10 @@ fun main() {
 
     // testCart()
     // testLet()
-    sampleLet()
+    // sampleLet()
+    // sampleApply()
+    // sampleAlso()
+    sampleRun()
 }
 
 fun testNullables() {
@@ -61,8 +64,38 @@ fun sampleLet() {
     var upperCase = name?.let { it.toUpperCase() }
     println(upperCase)
 
-    name = "김훈"
+    name = "john"
     upperCase = name?.let { it.toUpperCase() }
+    println(upperCase)
+}
+
+fun sampleApply() {
+    var name: String? = null
+    var upperCase = name?.apply { this.toUpperCase() }
+    println(upperCase)
+
+    name = "smith"
+    upperCase = name?.apply { this.toUpperCase() }
+    println(upperCase)
+}
+
+fun sampleAlso() {
+    var name: String? = null
+    var upperCase = name?.also { it.toUpperCase() }
+    println(upperCase)
+
+    name = "peter"
+    upperCase = name?.also { it.toUpperCase() }
+    println(upperCase)
+}
+
+fun sampleRun() {
+    var name: String? = null
+    var upperCase = name?.run { this.toUpperCase() }
+    println(upperCase)
+
+    name = "juliet"
+    upperCase = name?.run { this.toUpperCase() }
     println(upperCase)
 }
 
